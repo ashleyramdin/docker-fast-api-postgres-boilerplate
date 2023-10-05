@@ -4,8 +4,6 @@
 A FastAPI project template using Make, Docker Compose and Github Actions,
 that includes **SQLAlchemy**, **Alembic** and an integration test setup.
 
-[![Code Integration](https://github.com/bitestreams/fastapi-template/actions/workflows/code-integration.yml/badge.svg)](https://github.com/bitestreams/fastapi-template/actions/workflows/code-integration.yml)
-
 ##  Installation
 
 The only requirements to develop are **Docker** and **Make**.
@@ -86,5 +84,4 @@ This runs the integration & unit tests. If you want to run them separately, use 
 
 ## Further reading
 
-To read about the benefits of using this template,
-check out [our blog post](https://bitestreams.com/blog/fastapi_template/).
+Template based off: [here](https://bitestreams.com/blog/fastapi_template/)
