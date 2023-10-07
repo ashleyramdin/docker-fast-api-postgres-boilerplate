@@ -1,6 +1,6 @@
 # Docker Fastapi Postgres Project Template
 
-A Dockerized FastAPI Postgres project template using Make, Docker Compose and Github Actions,
+A Dockerized FastAPI Postgres project template using Make, and Docker Compose,
 that includes **SQLAlchemy**, **Alembic** and an integration test setup.
 
 ##  Installation
@@ -70,7 +70,7 @@ Again, the app should be all set up and running at [localhost:5000/docs](localho
 
 ---
 
-The tests are containerized and the Docker setup can be found in the `.ci/` folder.
+The tests are containerized.
 They are written using Pytest.
 You can run the tests using:
 ```bash
