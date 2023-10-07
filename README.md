@@ -11,7 +11,7 @@ Docker makes it easy to get started and enables easier switching between project
 To start up the project locally you first clone the project, and then run the following command in the cloned directory:
 ```sh
 $ git clone https://github.com/ashleyramdin/docker-fast-api-postgres-boilerplate.git
-$ cd fastapi-template
+$ cd docker-fast-api-postgres-boilerplate
 $ make up
 ```
 Then to update the schema using alembic, in another shell:
