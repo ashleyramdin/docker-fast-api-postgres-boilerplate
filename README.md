@@ -1,7 +1,6 @@
-# Fastapi Project Template
+# Docker Fastapi Postgres Project Template
 
-
-A FastAPI project template using Make, Docker Compose and Github Actions,
+A Dockerized FastAPI Postgres project template using Make, Docker Compose and Github Actions,
 that includes **SQLAlchemy**, **Alembic** and an integration test setup.
 
 ##  Installation
@@ -11,7 +10,7 @@ Docker makes it easy to get started and enables easier switching between project
 
 To start up the project locally you first clone the project, and then run the following command in the cloned directory:
 ```sh
-$ git clone https://github.com/BiteStreams/fastapi-template.git
+$ git clone https://github.com/ashleyramdin/docker-fast-api-postgres-boilerplate.git
 $ cd fastapi-template
 $ make up
 ```
@@ -19,7 +18,8 @@ Then to update the schema using alembic, in another shell:
 ```sh
 $ make migrate
 ```
-**That's it**. The app is set up and should be running at [localhost:5000/docs](localhost:5000/docs).
+
+The app is set up and should be running at [localhost:5000/docs](localhost:5000/docs).
 Code changes are automatically detected using a mounted docker volume.
 
 
@@ -53,9 +53,6 @@ help:
  Display this help message
 ```
 
-Make allows you to collect common scripts and commands for the project.
-Other projects using different programming languages and frameworks get the same development interface by using Make.
-
 ---
 
 ### Installation without Docker
@@ -81,7 +78,3 @@ $ make test
 ```
 This runs the integration & unit tests. If you want to run them separately, use `make itest` to run the integration tests and `make utest` to run the unit tests.
 
-
-## Further reading
-
-Template based off: [here](https://bitestreams.com/blog/fastapi_template/)
